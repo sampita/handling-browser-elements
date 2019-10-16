@@ -1,3 +1,20 @@
-body {
-    background-color: palegreen;
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex-basis: 50%;
+    width: 100%;
+}
+
+#firstArticleEl {
+    border: 1px solid turquoise;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: normal;
+}
+
+#secondArticleEl {
+    border: 1px solid palegreen;
+    display: flex;
+    flex-wrap: wrap;
 }
